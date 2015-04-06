@@ -36,6 +36,7 @@ include_directories( ${PROJECT_BINARY_DIR}
                      src
                      src/battery
                      src/clock
+                     src/graphs
                      src/systray
                      src/taskbar
                      src/launcher
@@ -56,6 +57,7 @@ set( SOURCES src/config.c
              src/server.c
              src/tint.c
              src/clock/clock.c
+             src/graphs/graphs.c
              src/systray/systraybar.c
              src/launcher/launcher.c
              src/launcher/apps-common.c
